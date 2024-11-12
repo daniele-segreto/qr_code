@@ -5,5 +5,5 @@ let testoCodiceQR = "https://www.arduino.cc/";
 let qrcode = new QRCode(document.getElementById("qrcode"), {
     text: testoCodiceQR,
     width: 500,
-    height: 500
+    height: 500 // altezza
 });
